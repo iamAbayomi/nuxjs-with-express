@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 //mongodb database connection string. change it as per needed
 
-mongoose.connect('mongodb://localhost/mydb',{
+mongoose.connect('mongodb://localhost:27017/mydb',{
                             useNewUrlParser: true,
                             useUnifiedTopology: true,
                             useFindAndModify: false,
