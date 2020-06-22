@@ -7,7 +7,7 @@
       <div class="col-md-6">
         <form action=""
           method="post"
-          @submit.prevent="submitForm()">
+          @submit.prevent="submitForm()" >
 
           <div class="form-group">
             <label for="">Full Name</label>
